@@ -14,6 +14,7 @@ const myArr2 = new Array(1, 2, 3, 4)
 
 // myArr.unshift(9)
 // myArr.shift()
+// console.log(myArr);
 
 // console.log(myArr.includes(9));
 // console.log(myArr.indexOf(3));
@@ -21,11 +22,11 @@ const myArr2 = new Array(1, 2, 3, 4)
 // const newArr = myArr.join()
 
 // console.log(myArr);
-// console.log( newArr);
+// console.log( typeof newArr);
 
 
 // slice, splice
-
+// Note : splice change the original array.
 console.log("A ", myArr);
 
 const myn1 = myArr.slice(1, 3)
