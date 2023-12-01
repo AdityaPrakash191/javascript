@@ -25,5 +25,6 @@ for(const key in str){
 // map.set('IN', "India")
 
 // for (const key in map) {
+    // map is not iterable
 //     console.log(key);
 // }
